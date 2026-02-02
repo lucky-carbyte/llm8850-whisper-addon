@@ -14,8 +14,10 @@ ports:
 map:
   - share:rw
 options:
-  model_dir: /share/llm8850/models/whisper-base
+  model_size: base
   language: de
+  model_path_base: /share/llm8850/models
 schema:
-  model_dir: str
+  model_size: list(tiny|small|base)
   language: str
+  model_path_base: str
