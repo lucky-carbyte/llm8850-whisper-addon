@@ -1,0 +1,9 @@
+{
+  "encoder": "/share/llm8850/models/whisper-base/ax650/base-encoder.axmodel",
+  "decoder_main": "/share/llm8850/models/whisper-base/ax650/base-decoder-main.axmodel",
+  "decoder_loop": "/share/llm8850/models/whisper-base/ax650/base-decoder-loop.axmodel",
+  "position_embedding": "/share/llm8850/models/whisper-base/base-positional_embedding.bin",
+  "token": "/share/llm8850/models/whisper-base/base-tokens.txt",
+  "model_type": "base",
+  "language": "de"
+}
