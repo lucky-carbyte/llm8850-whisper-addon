@@ -1,0 +1,21 @@
+```yaml
+name: Wyoming AXCL Whisper (LLM-8850)
+version: "0.1.0"
+slug: wyoming_axcl_whisper
+description: LLM-8850 accelerated Whisper Base (AXCL) with Wyoming STT interface
+arch:
+  - aarch64
+startup: services
+init: false
+boot: auto
+host_network: true
+ports:
+  10200/tcp: 10200
+map:
+  - share:rw
+options:
+  model_dir: /share/llm8850/models/whisper-base
+  language: de
+schema:
+  model_dir: str
+  language: str
