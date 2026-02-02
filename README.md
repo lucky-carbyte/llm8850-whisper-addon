@@ -90,5 +90,18 @@ Home Assistant Wyoming STT provider
 Automatic multi-language detection (default: German)
 
 
+## 🔀 Model Switcher
+
+The add-on supports the following Whisper AXMODEL builds:
+
+- whisper-tiny (fastest, lightest)
+- whisper-small (balanced)
+- whisper-base (best accuracy)
+
+Place them under:
+/share/llm8850/models/whisper-tiny/
+/share/llm8850/models/whisper-small/
+/share/llm8850/models/whisper-base/
+
 📄 License
 MIT
