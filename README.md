@@ -6,8 +6,7 @@ This repository contains a Home Assistant add-on providing **LLM‑8850 accelera
 - whisper.axcl continuous REST transcription server
 - Wyoming protocol bridge for Home Assistant Assist
 
-This add-on uses the **Whisper‑Base AXMODEL** (natively compiled for the AXERA AX8850 NPU) and exposes a Wyoming STT service on:Show more lines
-tcp://HOME_ASSISTANT_IP:10200
+This add-on uses the **Whisper‑Base AXMODEL** (natively compiled for the AXERA AX8850 NPU) and exposes a Wyoming STT service on:   tcp://HOME_ASSISTANT_IP:10200
 
 Works with:
 - Home Assistant Assist
