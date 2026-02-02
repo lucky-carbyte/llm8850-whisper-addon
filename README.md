@@ -1,7 +1,8 @@
 # llm8850-whisper-addon
 
 
-# LLM8850 Whisper – Home Assistant Add-OnThis repository contains a Home Assistant add-on providing **LLM‑8850 accelerated Whisper ASR** using:
+# LLM8850 Whisper – Home Assistant Add-On
+This repository contains a Home Assistant add-on providing **LLM‑8850 accelerated Whisper ASR** using:
 
 - Axera AXCL runtime
 - M5Stack Whisper Base AXMODEL
