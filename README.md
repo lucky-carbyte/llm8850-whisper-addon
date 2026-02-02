@@ -20,9 +20,7 @@ Works with:
 
 1. Open Home Assistant → **Settings → Add-ons → Add-on Store**
 2. Click **⋮ (three dots)** → **Repositories**
-3. Add:
-
-https://github.com/YOUR_USER/llm8850-whisper-addon
+3. Add: https://github.com/lucky-carbyte/llm8850-whisper-addon
 4. Install **Wyoming AXCL Whisper (LLM‑8850)**
 
 ---
