@@ -1,6 +1,3 @@
-# llm8850-whisper-addon
-
-
 # LLM8850 Whisper – Home Assistant Add-On
 This repository contains a Home Assistant add-on providing **LLM‑8850 accelerated Whisper ASR** using:
 
@@ -37,14 +34,27 @@ https://github.com/YOUR_USER/llm8850-whisper-addon
 - Home Assistant OS / Supervised
 - M5Stack Whisper Base AXMODEL:
 
-/share/llm8850/models/whisper-base
+You will place the downloaded AXMODEL models like this:
+* /share/llm8850/models/whisper-tiny/
+* /share/llm8850/models/whisper-small/
+* /share/llm8850/models/whisper-base/
+
+Each must contain:
+* ax650/encoder.axmodel
+* ax650/decoder-main.axmodel
+* ax650/decoder-loop.axmodel
+* positional_embedding.bin
+* tokens.txt
+
+This matches the HuggingFace Axmodel repository layouts.
 
 Clone the model:
 
 ```bash
-mkdir -p /share/llm8850/models/whisper-base
+mkdir -p /share/llm8850/models/whisper-{base,tiny,small}
 git clone https://huggingface.co/M5Stack/whisper-base-axmodel /share/llm8850/models/whisper-base
-
+git clone https://huggingface.co/M5Stack/whisper-tiny-axmodel /share/llm8850/models/whisper-tiny
+git clone https://huggingface.co/M5Stack/whisper-small-axmodel /share/llm8850/models/whisper-small
 
 🔌 Configure Home Assistant Assist
 
